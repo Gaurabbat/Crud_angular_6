@@ -1,0 +1,25 @@
+
+
+
+
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>ID</th><th>Name</th><th>Color</th><th colspan="2">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+
+      <tr *ngFor="let product of products">
+          <td>{{product.id}}</td>
+          <td>{{product.name}}</td>
+          <td>{{product.color}}</td>
+          <td [routerLink] = "['/updateProduct',product.id]" class="delAction"><a>Update</a></td>
+          <td (click) ="deleteProduct(product.id)" class="delAction"><a>Delete</a></td>
+          
+        </tr>
+
+    
+  </tbody>
+</table>

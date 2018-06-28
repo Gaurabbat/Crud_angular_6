@@ -1,0 +1,9 @@
+{
+  "products": [
+    {
+      "name": "Mouse",
+      "color": "Blue",
+      "id": 2
+    }
+  ]
+}
