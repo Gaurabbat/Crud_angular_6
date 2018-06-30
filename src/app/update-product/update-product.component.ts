@@ -33,8 +33,7 @@ export class UpdateProductComponent implements OnInit {
     )
   }
 
-
-  ngOnInit() {
+  getdata= function(){
     this.route.params.subscribe(
       params => {
         this.id = +params['id'];
@@ -54,6 +53,11 @@ export class UpdateProductComponent implements OnInit {
         }
       }
     )
+  }
+
+
+  ngOnInit() {
+    this.getdata();
   }
 
 }

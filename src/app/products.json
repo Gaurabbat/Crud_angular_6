@@ -4,6 +4,11 @@
       "name": "Mouse",
       "color": "Blue",
       "id": 2
+    },
+    {
+      "name": "Console",
+      "color": "Red",
+      "id": 3
     }
   ]
 }
