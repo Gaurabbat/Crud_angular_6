@@ -1,12 +1,18 @@
-#backButton{
-    font-size: 37px;
+.back{
+    font-size: 24px;
     opacity: 0.5;
     color: azure;
-    /* text-align: left; */
-    margin-right: 685px;
-
+    margin-right: 1022px;
+}
+.backButton{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+::placeholder { 
+    color: whitesmoke;
+    opacity: 0.6; 
 }
 
-input{
-    color : whitesmoke;
+.form-control{
+    color: whitesmoke;
 }

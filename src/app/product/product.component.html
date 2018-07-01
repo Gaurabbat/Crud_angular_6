@@ -1,12 +1,6 @@
-<a routerLink="/" id="backButton"><i class="fa fa-arrow-left"></i></a>
+<a routerLink="/" class="back"><button class="backButton"><i class="fa fa-arrow-left"></i>Back To Home</button></a>
 
 <h2>Add New Product</h2>
-
-<!-- <form id="addNewProduct" name="addNewProduct" #productData = "ngForm" (ngSubmit) = "addNewProduct(productData.value)" >
-  Name : <input type="text" id= "name" name= "name" ngModel><br>
-  Color : <input type="text" id= "color" name= "color" ngModel><br>
-  <input type="submit" value="Add Product">
-</form> -->
 
 <!-- Add form -->
 <form id="addNewProduct" name="addNewProduct" #productData = "ngForm" (ngSubmit) = "addNewProduct(productData.value)" >

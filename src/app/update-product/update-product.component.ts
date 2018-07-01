@@ -41,9 +41,7 @@ export class UpdateProductComponent implements OnInit {
     );
     this.http.get("http://localhost:5555/products").subscribe(
       (res : Response) => {
-        //res= JSON.parse(res['_body']);
-      // this.products = JSON.parse(res['_header']);
-      this.products = res;
+        this.products = res;
         console.log(res);
         for(var i =0;i<this.products.length;i++){
           if(parseInt(this.products[i].id)===this.id){
